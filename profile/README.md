@@ -5,7 +5,7 @@
 <h1 align="center">klaas</h1>
 
 <p align="center">
-  <strong>Remote access for Claude Code</strong>
+  <strong>Remote Terminal Access</strong>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 ---
 
-**`klaas`** wraps your Claude Code sessions and streams them to the cloud, 
+**`klaas`** wraps your terminal sessions and streams them to the cloud, 
 giving you remote access from any device.
 
 - Stream terminal output in real-time
@@ -57,8 +57,14 @@ scoop install klaas
 . 
 </details>
 
-### Usage
+### Verify installation
+
+After installation, verify klaas is working:
 
 ```bash
-klaas  # that's it, this replaces `claude`
+klaas --version
 ```
+
+### Documentation and Usage
+
+See the [docs](https://klaas.sh/documentation) for more information.
